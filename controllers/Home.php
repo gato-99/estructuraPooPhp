@@ -5,9 +5,12 @@ class Home extends Controllers
   {
     parent::__construct();
   }
-  public function home($params)
+  public function home()
   {
-   $this->Views->getView($this,"home");
+    $data['titulo'] = "Home";
+    $data['content'] = "contet home";
+    $data['subonten'] = "sub content";
+   $this->Views->getView($this,"home", $data);
   }
 
 }
