@@ -6,10 +6,15 @@
     <title><?php echo $data['titulo'] ?></title>
   </head>
   <body>
+  <?php
+  dep($data);
+  
+
+  ?>
   <h1><?php echo $data['content'] ?></h1>
   <h2><?php echo $data['subonten'] ?></h2>
-  <?php
-    print_r($data);
+  
+  <?php echo SMONEY.formatMoney(12000)
   ?>
   </body>
 </html>

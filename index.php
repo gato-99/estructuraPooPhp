@@ -1,5 +1,6 @@
 <?php 
 require_once ('config/config.php');
+require_once ('helpers/Helpers.php');
 $url = !empty($_GET['url']) ? $_GET['url'] : 'home/home';
 $arraUrl= explode('/',$url);
 $controller= $arraUrl[0];
