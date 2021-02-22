@@ -10,8 +10,7 @@ class Home extends Controllers
     $data['titulo'] = "Home";
     $data['content'] = "contet home";
     $data['subonten'] = "sub content";
-   $this->Views->getView($this,"home", $data);
+    $this->Views->getView($this,"home", $data);
   }
-
 }
 ?>
