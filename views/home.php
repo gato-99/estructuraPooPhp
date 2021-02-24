@@ -6,15 +6,6 @@
     <title><?php echo $data['titulo'] ?></title>
   </head>
   <body>
-  <?php
-  dep($data);
-  
-
-  ?>
-  <h1><?php echo $data['content'] ?></h1>
-  <h2><?php echo $data['subonten'] ?></h2>
-  
-  <?php echo SMONEY.formatMoney(12000)
-  ?>
+  <?php echo base_url(),'assets/img'; ?>
   </body>
 </html>
